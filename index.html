@@ -21,10 +21,26 @@
 			</header>
 
 		<!-- Signup Form -->
-			<form id="signup-form" method="post" action="https://formspree.io/f/mdoyvwdq">
+			<form id="signup-form" method="POST" action="https://formspree.io/f/mdoyvwdq">
 				<input type="email" name="_replyto" id="email" placeholder="Email Address" />
 				<input type="submit" value="Sign Up" />
 			</form>
+
+			<form
+ 				 action="https://formspree.io/f/mdoyvwdq"
+  				 method="POST"
+			>
+				<label>
+					Your email:
+					<input type="email" name="_replyto">
+				</label>
+				<label>
+					Your message:
+					<textarea name="message"></textarea>
+				</label>
+				<!-- your other form fields go here -->
+				<button type="submit">Send</button>
+				</form>
 
 		<!-- Footer -->
 			<footer id="footer">
